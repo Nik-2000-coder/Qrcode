@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color:  hsl(212, 45%, 89%);
+        font-family: "open Sans",Arial, Helvetica, sans-serif;
+    }
+
+    .container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .qrcode{
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px hsl(216, 15%, 78%); 
+        width:375px;
+    }
+    .Qrpic{
+        width: 350px;
+        border-radius: 20px;
+        margin-top: 10px;
+        display: flex;
+        justify-self: center;
+    }
+    .tex{
+        margin: 20px;
+        padding-bottom: 10px;
+        font-size: 15px;
+        font-family: Outfit,Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="qrcode">
+            <img class="Qrpic" src="/images/image-qr-code.png">
+            <div class="tex">
+                <h1>Improve your Front-end skills by building projects</h1>
+                <p>Scan the Qrcode to visit frontend Mentor and take your coding
+                skills to the next level
+                </p>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

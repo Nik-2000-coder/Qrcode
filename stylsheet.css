@@ -1,0 +1,11 @@
+:root{
+    --color-primary:hsl(0, 0%, 100%);
+    --color-secondary:hsl(212, 45%, 89%);
+    --color-third:hsl(216, 15%, 48%);
+    --color-fourth:hsl(218, 44%, 22%);
+}
+
+ body{
+   margin: 10px;
+   font: optional; 
+ }
